@@ -36,6 +36,7 @@
   border: 1px solid rgb(162, 101, 57);
   width: 169px;
   height: 52px;
+  background: rgb(255, 255, 255);
   margin-left: 48px;
   font-size: 16px;
   line-height: 20px;
@@ -46,16 +47,26 @@
   font-size: 48px;
   line-height: 59px;
   font-weight: 700;
+  padding-top: 118px;
+  padding-bottom: 24px;
 }
 .header__description {
   font-size: 24px;
   line-height: 29px;
   font-weight: 600;
 }
-.header__text {
+.header__text-one {
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
+  padding-top: 24px;
+  padding-bottom: 10px;
+}
+.header__text-two {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  padding-bottom: 40px;
 }
 .header__button {
   width: 366px;
@@ -67,4 +78,9 @@
   line-height: 20px;
   font-weight: 600;
   color: rgb(162, 101, 57);
+}
+.header__img {
+  position: absolute;
+  top: 60px;
+  left: 650px;
 }/*# sourceMappingURL=style.css.map */

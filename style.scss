@@ -34,6 +34,7 @@
         border: 1px solid rgba(162, 101, 57, 1);
         width: 169px;
         height: 52px;
+        background: rgba(255, 255, 255, 1);
         margin-left: 48px;
         font-size: 16px;
         line-height: 20px;
@@ -44,16 +45,26 @@
         font-size: 48px;
         line-height: 59px;
         font-weight: 700;
+        padding-top: 118px;
+        padding-bottom: 24px;
     }
     &__description{
         font-size: 24px;
         line-height: 29px;
         font-weight: 600;
     }
-    &__text{
+    &__text-one{
         font-size: 16px;
         line-height: 20px;
         font-weight: 400;
+        padding-top: 24px;
+        padding-bottom: 10px;
+    }
+    &__text-two{
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 400;
+        padding-bottom: 40px;
     }
     &__button{
         width: 366px;
@@ -65,5 +76,10 @@
         line-height: 20px;
         font-weight: 600;
         color: rgba(162, 101, 57, 1);
+    }
+    &__img{
+        position: absolute;
+        top: 60px;
+        left: 650px;
     }
 }
