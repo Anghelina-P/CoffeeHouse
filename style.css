@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.header {
+  background: rgb(246, 245, 244);
+}
+.header__navbar {
+  background: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  height: 120px;
+}
+.header__navbar-menu {
+  display: flex;
+  gap: 48px;
+  padding-left: 256px;
+}
+.header__navbar-list {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(69, 64, 61);
+}
+.header__navbar-btn {
+  box-sizing: border-box;
+  border-radius: 24px;
+  border: 1px solid rgb(162, 101, 57);
+  width: 169px;
+  height: 52px;
+  margin-left: 48px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  color: rgb(162, 101, 57);
+}
+.header__title {
+  font-size: 48px;
+  line-height: 59px;
+  font-weight: 700;
+}
+.header__description {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+}
+.header__text {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.header__button {
+  width: 366px;
+  height: 52px;
+  box-sizing: border-box;
+  border-radius: 24px;
+  border: 1px solid rgb(162, 101, 57);
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  color: rgb(162, 101, 57);
+}/*# sourceMappingURL=style.css.map */
