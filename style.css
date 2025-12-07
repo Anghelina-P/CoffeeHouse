@@ -83,4 +83,201 @@
   position: absolute;
   top: 60px;
   left: 650px;
+}
+
+.section__aboutUs {
+  padding-top: 210px;
+  background: rgb(246, 245, 244);
+}
+.section__aboutUs-title {
+  font-size: 48px;
+  line-height: 59px;
+  font-weight: 700;
+  padding-bottom: 48px;
+  padding-top: 64px;
+}
+.section__aboutUs-articls {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.section__aboutUs-cards {
+  height: 292px;
+  width: 584px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: flex-start;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.14);
+  border-radius: 24px 24px 24px 0px;
+  background: rgb(255, 255, 255);
+}
+.section__aboutUs-div {
+  padding: 20px 20px 0px 20px;
+}
+
+.section__cards-title {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+  padding-bottom: 14px;
+}
+.section__cards-text {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+}
+
+.section__menu {
+  background: rgb(246, 245, 244);
+  padding-top: 64px;
+}
+.section__menu-header {
+  display: flex;
+  justify-content: space-between;
+}
+.section__menu-title {
+  font-size: 48px;
+  line-height: 59px;
+  font-weight: 700;
+  padding-top: 64px;
+}
+.section__menu-btns {
+  padding-top: 71px;
+}
+.section__menu-btn {
+  box-sizing: border-box;
+  width: 120px;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 600;
+  color: rgb(162, 101, 57);
+  border-radius: 24px;
+  height: 45px;
+  border: 1px solid rgb(162, 101, 57);
+}
+
+.section__reviews {
+  background: rgb(246, 245, 244);
+}
+.section__reviews-title {
+  font-size: 48px;
+  line-height: 59px;
+  font-weight: 700;
+  padding-top: 64px;
+  padding-bottom: 48px;
+}
+.section__reviews-articls {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  padding-bottom: 64px;
+}
+.section__reviews-cards {
+  width: 360px;
+  height: 208px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.14);
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+}
+.section__reviews-cardsDiv {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 13px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.section__reviews-cardsName {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+}
+.section__reviews-cardsText {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.section__findUs {
+  background: rgb(246, 245, 244);
+}
+.section__findUs-title {
+  font-size: 48px;
+  line-height: 59px;
+  font-weight: 700;
+  padding-top: 64px;
+  padding-bottom: 48px;
+}
+.section__findUs-form {
+  width: 379px;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.14);
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+}
+.section__findUs-formTitle {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+  padding-bottom: 24px;
+}
+.section__findUs-formDiv {
+  display: flex;
+  gap: 17px;
+  flex-direction: column;
+}
+.section__findUs-list {
+  display: flex;
+  gap: 10px;
+}
+.section__findUs-listItem {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+}
+.section__findUs-reserv {
+  margin-top: 14px;
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.14);
+  height: 319px;
+  width: 379px;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+}
+.section__findUs-reservTitle {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+  padding-bottom: 24px;
+}
+.section__findUs-reservInput {
+  box-sizing: border-box;
+  width: 339px;
+  border-radius: 24px;
+  margin-bottom: 7px;
+  height: 47px;
+  border: 1px solid rgb(222, 222, 222);
+}
+.section__findUs-reservBtn {
+  width: 339px;
+  height: 47px;
+  margin-top: 17px;
+  box-sizing: border-box;
+  border-radius: 24px;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgb(162, 101, 57);
+  font-weight: 600;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(162, 101, 57);
 }/*# sourceMappingURL=style.css.map */
