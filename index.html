@@ -11,6 +11,7 @@
 </head>
 <body>
     <header class="header">
+    <div class="header__fixed">
         <div class="header__navbar center">
             <img src="imgs/headerlogo.png" alt="логотип">
             <div class="header__navbar-menu">
@@ -21,8 +22,9 @@
             </div>
             <button class="header__navbar-btn">Связаться</button>
         </div>
-        <div>
-                    <div class="center">
+    </div>
+        <div class="header__text">
+        <div class="center">
         <h1 class="header__title">
             Добро пожаловать <br> в «Зернышко»
         </h1>
@@ -108,6 +110,56 @@
                 <button class="section__menu-btn">Десерты</button>
                 <button class="section__menu-btn">Закуски</button>
             </div>
+        </div>
+        <div class="section__menu-articls">
+            <article class="section__menu-article">
+                <img src="imgs/Cappuccinowithalmondmilkandcoconutsyrup.png" alt="чашка кофе">
+                <p class="section__menu-price">240₽</p>
+                <p class="section__menu-description">Капучино на миндальном молоке с кокосовым сиропом</p>
+                <p class="section__menu-volume">350 мл</p>
+            </article>
+            <article class="section__menu-article">
+                <img src="imgs/Coconutmilklattewithmaplesyrup.png" alt="чашка кофе">
+                <p class="section__menu-price">270₽</p>
+                <p class="section__menu-description">Латте на кокосовом молоке с кленовым сиропом </p>
+                <p class="section__menu-volume">350 мл</p>
+            </article>
+            <article class="section__menu-article">
+                <img src="imgs/Rafwithcaramelsyrupandchocolate.png" alt="чашка кофе">
+                <p class="section__menu-price">360₽</p>
+                <p class="section__menu-description">Раф с карамельным сиропом и шоколадом</p>
+                <p class="section__menu-volume">250 мл</p>
+            </article>
+            <article class="section__menu-article">
+                <img src="imgs/classicAmericanowithboostofenergy.png" alt="чашка кофе">
+                <p class="section__menu-price">160₽</p>
+                <p class="section__menu-description">Классический американо с зарядом бодрости</p>
+                <p class="section__menu-volume">300 мл</p>
+            </article>
+            <article class="section__menu-article">
+                <img src="imgs/FlatwhitewithrichtasteEthiopianespresso.png" alt="чашка кофе">
+                <p class="section__menu-price">160₽</p>
+                <p class="section__menu-description">Флет уайт с насыщенным вкусом эфиопского эспрессо</p>
+                <p class="section__menu-volume">300 мл</p>
+            </article>
+            <article class="section__menu-article">
+                <img src="imgs/Oatmilklattewithcinnamon.png" alt="чашка кофе">
+                <p class="section__menu-price">270₽</p>
+                <p class="section__menu-description">Латте на овсяном молоке с добавлением корицы</p>
+                <p class="section__menu-volume">300 мл</p>
+            </article>
+            <article class="section__menu-article">
+                <img src="imgs/doubleespressowithhighenergyboost.png" alt="чашка кофе">
+                <p class="section__menu-price">180₽</p>
+                <p class="section__menu-description">Двойной эспрессо с высоким зарядом энергии</p>
+                <p class="section__menu-volume">300 мл</p>
+            </article>
+            <article class="section__menu-article">
+                <img src="imgs/Cappuccinowithsoymilkandnutsyrup.png" alt="чашка кофе">
+                <p class="section__menu-price">240₽</p>
+                <p class="section__menu-description">Капучино на соевом молоке с ореховым сиропом</p>
+                <p class="section__menu-volume">300 мл</p>
+            </article>
         </div>
     </section>
     <section class="section__reviews center">
@@ -215,14 +267,16 @@
         <h2 class="section__findUs-title">
             Как нас найти
         </h2>
-        <form class="section__findUs-form">
+        <div class="section__findUs-info">
+            <div>
+            <form class="section__findUs-form">
             <p class="section__findUs-formTitle">
                 Контакты
             </p>
             <div class="section__findUs-formDiv">
                 <div class="section__findUs-list">
                     <img src="imgs/phon.png" alt="">
-                    <p class="section__findUs-listItem">+7 (999) 999 99-99</p>
+                    <p class="section__findUs-listItem">+7 (915) 799 86-39</p>
                 </div>
                 <div class="section__findUs-list">
                     <img src="imgs/email.png" alt="">
@@ -241,7 +295,23 @@
             <input type="text" placeholder="     Комментарий" class="section__findUs-reservInput">
             <button class="section__findUs-reservBtn">Забронировать</button>
         </form>
+        </div>
         <img src="imgs/map.png" alt="карта с местонахождением кофейни">
+        </div>
     </section>
+    <footer class="footer">
+        <div class="footer__navbar center">
+            <div>
+            <img src="imgs/headerlogo.png" alt="логотип">
+            <p class="footer__navbar-rights">© 2025 Все права защищены</p>
+            </div>
+            <div class="footer__navbar-menu">
+                <a class="footer__navbar-list" href="">О нас</a>
+                <a class="footer__navbar-list" href="">Меню</a>
+                <a class="footer__navbar-list" href="">Отзывы</a>
+                <a class="footer__navbar-list" href="">Контакты</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
